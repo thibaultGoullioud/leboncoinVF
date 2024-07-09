@@ -10,7 +10,9 @@ module.exports = ({ env }) => ({
       },
       actionOptions: {
         upload: {},
-        uploadStream: { timeout: 1000 * 60 * 3 },
+        uploadStream: {
+          timeout: 1000 * 60 * 3,
+        },
         delete: {},
       },
     },
